@@ -1,1 +1,2 @@
 # TutorRecommender
+A two-tower, deep learning recommender system that learns embeddings for users and tutors on a (currently) randomly generated dataset. Tower one employs collaborative filtering to generate positive and negative samples and tower two utilizes a modified version of word2Vec to learn embeddings on prior tutor usage data. Supports embedding visualization based on user features and an adjustable representation of features as numbers.
